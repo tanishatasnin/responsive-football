@@ -5,19 +5,24 @@ body{
 h1{ font-size: xx-large;
                font-size: 50px;
 }
+h1:hover{
+  color:cornflowerblue;
+}
 .link-button{
   text-decoration: none; 
+  align-items: center;
 background-color: #E02C6D;
-   padding: 10px 30px;
-   color: white
+   padding: 10px;
+   color: white;
    position: absolute;
    width: 168px;
-   height: 44px;
-   left: 156px;
-   top: 464px;
-   margin-left: 30px;
-   margin-bottom;20px;s
+
+   
+   top:464px;
+   margin-left:30px;
+   margin-top:20px;
   
+
 }
   .first-width img{
                  width: 100%;
@@ -35,12 +40,17 @@ margin-left: 200px;
                width:100%;
                height: 700px;
                display: flex;
-               background-color: blue;
+               background-color: #2D25A0;
+
                
 overflow-y:hidden;
 overflow-x:hidden;
 
 }
+.first-width:hover{
+  background-color: thistle;
+}
+
 .first-left{
                color: white;
                width: 100%;
@@ -88,12 +98,10 @@ grid-column-gap: 25px;
                width: 200px;
                height: 156px;
 }
-.players{
 
-}
 .player{
   padding-left: 20px;
-  padding-top: 5px;
+  padding-top: 15px;
                width: 230px;
                height: 373px;
                align-items: center;
@@ -104,14 +112,45 @@ grid-column-gap: 25px;
 p{
   font-size: 10px;
 }
-.icon{
-  width:100px
-  font-size:20px;
-  margin:20px;
-
+.icon-some{
+  width:400px;
+  margin-left: 275px;
 }
 .icon-background{
-  border-radius: 50px ;
+margin:25px;
+background-color: darkgray;
+border-radius: 45px;
+padding-left:5px;
+padding-right: 5px;
+
+
+}
+.form-part{
+  margin-top: 40px;
+}
+.instraction{
   font-size: 20px;
-  background-color: gray;
+}
+footer{
+  margin-left: 300px;
+}
+
+
+
+@media only screen and (max-width:688px){
+
+.player{
+  grid-template-columns:repeat(1,1fr);
+               }
+               
+               .first-width{
+                width: 100%;
+ }
+
+                      
+ }
+ .player{
+                flex-direction: column;
+ 
+}
 }

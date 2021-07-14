@@ -2,12 +2,23 @@ body{
                font-family: 'Poppins', sans-serif;
 }
 
-overflow-y:scroll;
-overflow-x:hidden;
 h1{ font-size: xx-large;
                font-size: 50px;
 }
-
+.link-button{
+  text-decoration: none; 
+background-color: #E02C6D;
+   padding: 10px 30px;
+   color: white
+   position: absolute;
+   width: 168px;
+   height: 44px;
+   left: 156px;
+   top: 464px;
+   margin-left: 30px;
+   margin-bottom;20px;s
+  
+}
   .first-width img{
                  width: 100%;
                  width: 556.01px;
@@ -52,9 +63,11 @@ h1{
 
 }
 .container{
-               width: 100%;
+               width:50%;
                margin-top: 40px;
-               background-color:;
+               justify-content: center;
+               align-items: center;
+               margin-left: 270px;
 
 
 }
@@ -76,21 +89,29 @@ grid-column-gap: 25px;
                height: 156px;
 }
 .players{
-  justify-content: center;
-               align-items: center;
+
 }
 .player{
+  padding-left: 20px;
+  padding-top: 5px;
                width: 230px;
                height: 373px;
                align-items: center;
                border: 2px solid whitesmoke;
-               padding-left: 20px;
-               padding-top: 20px;
-               margin-left: 80px;
-               grid-row-gap: 3px;
                box-shadow: 0px 0px 40px 0px #00000026;
 
 }
 p{
   font-size: 10px;
+}
+.icon{
+  width:100px
+  font-size:20px;
+  margin:20px;
+
+}
+.icon-background{
+  border-radius: 50px ;
+  font-size: 20px;
+  background-color: gray;
 }
